@@ -1,0 +1,35 @@
+
+import { ConversionFormat } from './types';
+
+export const TARGET_FORMATS: ConversionFormat[] = [
+  { extension: 'jpg', category: 'Standard', description: 'Format compressé standard' },
+  { extension: 'jpeg', category: 'Standard', description: 'Variante du format JPEG' },
+  { extension: 'jfif', category: 'Standard', description: 'JPEG File Interchange Format' },
+  { extension: 'png', category: 'Standard', description: 'Portable Network Graphics' },
+  { extension: 'gif', category: 'Web', description: 'Graphics Interchange Format' },
+  { extension: 'bmp', category: 'Standard', description: 'Bitmap Image File' },
+  { extension: 'tif', category: 'Professionnel', description: 'Tagged Image File' },
+  { extension: 'tiff', category: 'Professionnel', description: 'Tagged Image File Format' },
+  { extension: 'webp', category: 'Web', description: 'Format moderne pour le web' },
+  { extension: 'heic', category: 'Professionnel', description: 'High Efficiency Image Container' },
+  { extension: 'heif', category: 'Professionnel', description: 'High Efficiency Image Format' },
+  { extension: 'svg', category: 'Vecteur', description: 'Scalable Vector Graphics' },
+  { extension: 'raw', category: 'Raw', description: 'Données d\'image brutes' },
+  { extension: 'cr2', category: 'Raw', description: 'Canon Raw 2' },
+  { extension: 'nef', category: 'Raw', description: 'Nikon Electronic Format' },
+  { extension: 'arw', category: 'Raw', description: 'Sony Alpha Raw' },
+  { extension: 'orf', category: 'Raw', description: 'Olympus Raw Format' },
+  { extension: 'rw2', category: 'Raw', description: 'Panasonic Raw 2' },
+  { extension: 'dng', category: 'Raw', description: 'Adobe Digital Negative' },
+  { extension: 'psd', category: 'Professionnel', description: 'Adobe Photoshop Document' },
+  { extension: 'xcf', category: 'Professionnel', description: 'GIMP Image' },
+  { extension: 'eps', category: 'Vecteur', description: 'Encapsulated PostScript' },
+  { extension: 'ico', category: 'Web', description: 'Icône Windows' },
+  { extension: 'indd', category: 'Professionnel', description: 'Adobe InDesign Document' },
+  { extension: 'pcx', category: 'Autre', description: 'Picture Exchange' },
+  { extension: 'pct', category: 'Autre', description: 'Macintosh PICT' },
+  { extension: 'pict', category: 'Autre', description: 'Macintosh PICT' },
+  { extension: 'exr', category: 'Professionnel', description: 'OpenEXR' },
+  { extension: 'hdr', category: 'Professionnel', description: 'High Dynamic Range' },
+  { extension: 'kra', category: 'Professionnel', description: 'Krita Document' }
+];
